@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Y Against X</title>
+ <style>
+   body{
+     background-image: url('league1.jpeg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+     font-family: 'Nunito Semibold';
+
+     text-align: center;
+   }
+   #content{
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     grid-auto-rows: minmax(150px, auto);
+     max-width: 960px;
+     margin: 0 auto;
+   }
+   #content > *{
+     padding: 10px;
+     border: 5px;
+     border-style: solid;
+     border-color: black;
+     /*border-width: large;*/
+   }
+   header{
+     grid-column: span 3;
+     background: #4bdd8d;
+     font-size: 66px;
+     text-align: center;
+   }
+   main{
+     grid-column: 2 / 4;
+     grid-row: 2 / 4;
+     font-size: 38px;
+     font-style: normal;
+     font-family: fantasy;
+     /*color: #000000;*/
+
+     background-attachment: fixed;
+     text-align: center;
+     background: #4bdd8d;
+   }
+
+   .rainbow {
+     background-image: linear-gradient(to right, red , purple, green);
+     background-image: linear-gradient(to right, red , purple, green);
+     color:transparent;
+     -webkit-background-clip: text;
+     background-clip: text;
+   }
+   nav{
+     grid-row: s / span 2;
+     font-size: 24px;
+     background: #4bdd8d;
+   }
+   footer{
+     grid-column: span 3;
+     grid-row: 4;
+     background: #4bdd8d;
+   }
+ </style>
+</head>
+<body>
+
+ <div id="content">
+
+   <header>
+     <img src="palm_sundays.gif" alt="spinspinspin">
+   </header>
+
+   <main>
+     <p><span class="rainbow">Your home for Fantasy Football updates for the Palm Sundays Football League</span></p>
+
+     <p><span class="rainbow">Take a look through this site for all things Palm as well as Sundays</span>
+     </p>
+     <p><img src="world.gif"></p>
+
+   </main>
+
+   <nav>
+
+     <p><a href="about.html"><img border="0" alt="about" src="about.png" width="250" height="100"></a></p>
+     <p><a href="pastshows.html"><img border="0" alt="pastshows" src="past_shows.png" width="250" height="100"></a></p>
+     <p><a href="https://www.wcbn.org"><img border="0" alt="wcbn" src="wcbn.png" width="250" height="100"></a></p>
+     <p><a href="contact.html"><img border="0" alt="contact" src="contact.png" width="250" height="100"></a></p>
+
+   </nav>
+
+   <footer>
+     <img src="gator.gif" alt=":3">
+     <img src="gator.gif" alt=":O">
+     <img src="gator.gif" alt=":O">
+     <img src="gator.gif" alt=":O">
+     <img src="gator.gif" alt=":O">
+   </footer>
+
+ </div>
+
+</body>
+</html>
